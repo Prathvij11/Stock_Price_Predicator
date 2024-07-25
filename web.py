@@ -93,8 +93,8 @@ y = y * scale
 
 st.subheader('price vs predicted price')
 fig4 = plt.figure(figsize=(8,6))
-plt.plot(predict,'r',label= 'Predicted price')
-plt.plot(y,'g',label= 'Original Price')
+plt.plot(predict,'r',label= 'Original price')
+plt.plot(y,'g',label= 'Predicted price')
 plt.xlabel('Time')
 plt.ylabel('Price')
 plt.xlabel('Time')
